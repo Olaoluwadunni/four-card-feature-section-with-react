@@ -1,0 +1,80 @@
+html {
+    background-color: hsl(0, 0%, 98%)
+}
+body {
+    height: 100%;
+    font-family: poppins;
+    font-size: 11px; 
+    margin: 0;
+    background-color: hsl(0, 0%, 94%);
+    background-attachment: fixed;
+}
+.Header {
+    font-size: 25px;
+    text-align: center;
+    font-family: poppins;
+    color:gray;
+    padding-top:20px;
+}
+#BBoldBlack {
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.header2{
+    font-size: 13px;
+    margin: 18px;
+    line-height: 1.7;
+}
+span.BoldBlack{
+    color:black;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 0.2;
+}
+.tools-container {
+    display:grid;
+    justify-content: center;
+    padding: 37px;
+    color: gray;
+    align-items: center;
+}
+.tool {
+    height: 153px;
+    width: 239px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: white;
+    line-height: 1.7;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px 30px;
+}
+#calculator {
+  /*  margin-left: 30px;*/
+    box-shadow: 0px -3px hsl(212, 86%, 64%);
+    grid-column: 3;
+    grid-row:1 ;
+    margin-left: 30px;
+}
+#supervisor {
+    margin-right: 30px;
+    box-shadow: 0px -3px hsl(180, 62%, 55%);
+    grid-column:1 ;
+    grid-row: 1;
+}
+#Team-builder {
+    box-shadow: 0px -3px hsl(0, 78%, 62%);
+    grid-column:2 ;
+    grid-row: 1;
+}
+#Karma {
+    box-shadow: 0px -3px hsl(34, 97%, 64%);
+    margin-top: 30px;
+    grid-column: 2;
+    grid-row:2 ;
+}
+img {
+    width: 44px;
+    align-self: flex-end;
+    margin-top: 46px;
